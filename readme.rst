@@ -1,5 +1,8 @@
-urlvalidator
-==============
+=============================
+urlvalidator |latest-version|
+=============================
+
+|travis-master| |coverage-master|
 
 URLValidator and EmailValidator classes from Django extracted to a separate package.
 Used to avoid adding django dependency to a python only project.
@@ -38,3 +41,14 @@ Bug report and Help
 -------------------
 
 For bug reports open a github ticket. Patches gratefully accepted.
+
+
+.. |travis-master| image:: https://travis-ci.org/adonisnafeh/urlvalidator.svg?branch=master
+   :alt: Build Status - master branch
+   :target: https://travis-ci.org/adonisnafeh/urlvalidator
+.. |coverage-master| image:: https://coveralls.io/repos/github/adonisnafeh/urlvalidator/badge.svg?branch=master
+   :alt: Coverage of the code
+   :target: https://coveralls.io/github/adonisnafeh/urlvalidator?branch=master
+.. |latest-version| image:: https://badge.fury.io/py/urlvalidator.svg
+   :alt: Latest version on Pypi
+   :target: https://badge.fury.io/py/urlvalidator
